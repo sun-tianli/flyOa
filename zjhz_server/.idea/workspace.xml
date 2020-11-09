@@ -37,7 +37,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="E:" />
   </component>
   <component name="ProjectId" id="1W05V18n5AU8ay5OgjcsfObYC1Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -355,6 +355,7 @@
       <workItem from="1604621468356" duration="8463000" />
       <workItem from="1604880862009" duration="5867000" />
       <workItem from="1604886862535" duration="8437000" />
+      <workItem from="1604905850007" duration="385000" />
     </task>
     <servers />
   </component>
@@ -365,7 +366,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
-      <path value="$PROJECT_DIR$/../.." />
+      <path value="E:" />
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
