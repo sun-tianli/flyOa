@@ -70,12 +70,12 @@ public class JcDwglManageController extends BaseController {
     }
 
 
-    @ApiOperation("组织结构列表")
-    @ResponseBody
-    @PostMapping("/find")
-    public Result<JSONArray> findChildren(@RequestParam Integer dwbh) {
-        return Result.success(jcDwglService.find(dwbh));
-    }
+//    @ApiOperation("组织结构列表")
+//    @ResponseBody
+//    @PostMapping("/find")
+//    public Result<JSONArray> findChildren(@RequestParam Integer dwbh) {
+//        return Result.success(jcDwglService.find(dwbh));
+//    }
 
 
     @ApiOperation(value = "查询单位+职位树")
