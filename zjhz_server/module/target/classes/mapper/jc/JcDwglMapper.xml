@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eaglesoft.zjhz.dao.jc.JcDwglMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.eaglesoft.zjhz.entity.jc.JcDwgl">
+        <id column="BH" property="bh"/>
+        <result column="DWMC" property="dwmc"/>
+        <result column="SJDW" property="sjdw"/>
+        <result column="WZH" property="wzh"/>
+        <result column="Lft" property="Lft"/>
+        <result column="Rgt" property="Rgt"/>
+        <result column="SCBZ" property="scbz"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BH, DWMC, SJDW, WZH, Lft, Rgt, SCBZ
+    </sql>
+
+    <select id="selectDwForSql" resultType="com.eaglesoft.zjhz.entity.vo.selectDwmc">
+        select dwmc
+        from jc_dwgl
+        where dwmc like CONCAT('%',#{dw.dwmc},'%');
+    </select>
+
+    <select id="selectZwByDwId" resultType="com.eaglesoft.zjhz.entity.vo.selectZw">
+select jc_zwgl.wzh,jc_zwgl.bh,zwmc
+from jc_zwgl
+join jc_dwgl
+on jc_dwgl.bh=jc_zwgl.dwbh
+where jc_dwgl.bh=#{bh};
+
+    </select>
+
+
+</mapper>

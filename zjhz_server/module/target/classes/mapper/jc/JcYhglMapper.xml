@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eaglesoft.zjhz.dao.jc.JcYhglMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.eaglesoft.zjhz.entity.jc.JcYhgl">
+        <id column="BH" property="bh" />
+        <result column="ZH" property="zh" />
+        <result column="ZH_MD5" property="zhMd5" />
+        <result column="MM" property="mm" />
+        <result column="XM" property="xm" />
+        <result column="XMPY" property="xmpy" />
+        <result column="TX" property="tx" />
+        <result column="DH" property="dh" />
+        <result column="SJ" property="sj" />
+        <result column="XNW" property="xnw" />
+        <result column="YX" property="yx" />
+        <result column="BM" property="bm" />
+        <result column="ZW" property="zw" />
+        <result column="JS" property="js" />
+        <result column="SJLD" property="sjld" />
+        <result column="WXBDID" property="wxbdid" />
+        <result column="DWBH" property="dwbh" />
+        <result column="WZH" property="wzh" />
+        <result column="JYZT" property="jyzt" />
+        <result column="SCBZ" property="scbz" />
+        <result column="ISCJGL" property="iscjgl" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BH, ZH, ZH_MD5, MM, XM, XMPY, TX, DH, SJ, XNW, YX, BM, ZW, JS, SJLD, WXBDID, DWBH, WZH, JYZT, SCBZ, ISCJGL
+    </sql>
+
+<!--<select id="selectPage" resultMap="BaseResultMap">-->
+<!--    select *-->
+<!--    from jc_yhgl-->
+<!--    where dwbh=#{dwbh}-->
+<!--</select>-->
+
+
+</mapper>

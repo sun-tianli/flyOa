@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eaglesoft.zjhz.dao.jc.XtCzrzMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.eaglesoft.zjhz.entity.jc.XtCzrz">
+        <id column="BH" property="bh" />
+        <result column="CZR" property="czr" />
+        <result column="CZSJ" property="czsj" />
+        <result column="CZNR" property="cznr" />
+        <result column="CZIP" property="czip" />
+        <result column="BDBH" property="bdbh" />
+        <result column="SJBH" property="sjbh" />
+        <result column="TJCS" property="tjcs" />
+        <result column="CZCLASS" property="czclass" />
+        <result column="CZFF" property="czff" />
+        <result column="DWBH" property="dwbh" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BH, CZR, CZSJ, CZNR, CZIP, BDBH, SJBH, TJCS, CZCLASS, CZFF, DWBH
+    </sql>
+
+</mapper>

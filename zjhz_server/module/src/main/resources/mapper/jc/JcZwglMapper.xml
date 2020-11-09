@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eaglesoft.zjhz.dao.jc.JcZwglMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.eaglesoft.zjhz.entity.jc.JcZwgl">
+        <id column="BH" property="bh"/>
+        <result column="ZWMC" property="zwmc"/>
+        <result column="DWBH" property="dwbh"/>
+        <result column="WZH" property="wzh"/>
+        <result column="SCBZ" property="scbz"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BH, ZWMC, DWBH, WZH, SCBZ
+    </sql>
+
+    <insert id="insertForSql" parameterType="com.eaglesoft.zjhz.entity.jc.JcZwgl">
+        <selectKey keyProperty="bh" order="AFTER" resultType="java.lang.Integer">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+
+        INSERT INTO jc_zwgl(bh,zwmc,dwbh,wzh,scbz) VALUE (#{bh},#{zwmc},#{dwbh},#{wzh},#{scbz})
+    </insert>
+
+
+</mapper>

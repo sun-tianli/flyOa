@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eaglesoft.zjhz.dao.jc.JcBmglMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.eaglesoft.zjhz.entity.jc.JcBmgl">
+        <id column="BH" property="bh" />
+        <result column="BMMC" property="bmmc" />
+        <result column="SJBM" property="sjbm" />
+        <result column="DWBH" property="dwbh" />
+        <result column="WZH" property="wzh" />
+        <result column="Lft" property="Lft" />
+        <result column="Rgt" property="Rgt" />
+        <result column="SCBZ" property="scbz" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BH, BMMC, SJBM, DWBH, WZH, Lft, Rgt, SCBZ
+    </sql>
+
+
+    <select id="selectChildren" resultType="com.eaglesoft.zjhz.entity.jc.JcBmgl">
+SELECT * FROM `jc_bmgl` where lft between #{lft} and #{rgt} order by lft
+
+    </select>
+
+    <select id="selectChildById" resultType="com.eaglesoft.zjhz.entity.jc.JcBmgl">
+SELECT *
+FROM jc_bmgl
+where bh like CONCAT(#{bh},'%')
+
+
+    </select>
+
+
+
+
+</mapper>

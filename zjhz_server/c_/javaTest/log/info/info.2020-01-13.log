@@ -1,0 +1,248 @@
+2020-01-13 09:48:43.610 uias [main] INFO  Application - Starting Application on huchengjiedeMacBook-Pro.local with PID 27545 (/Users/huchengjie/IntellijWorkspaces/java_test/zjhz_server/web/target/classes started by huchengjie in /Users/huchengjie/IntellijWorkspaces/java_test/zjhz_server)
+2020-01-13 09:48:43.614 uias [main] INFO  Application - The following profiles are active: hikari,mybatisplus,dev
+2020-01-13 09:48:45.113 uias [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-13 09:48:45.119 uias [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-13 09:48:45.211 uias [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58ms. Found 0 repository interfaces.
+2020-01-13 09:48:45.625 uias [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2020-01-13 09:48:45.730 uias [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-01-13 09:48:45.731 uias [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2020-01-13 09:48:45.732 uias [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2020-01-13 09:48:45.733 uias [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-13 09:48:45.733 uias [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-13 09:48:45.733 uias [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-01-13 09:48:45.733 uias [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource applicationConfig: [classpath:/application-dev.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-13 09:48:45.735 uias [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource applicationConfig: [classpath:/application-mybatisplus.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-13 09:48:45.735 uias [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource applicationConfig: [classpath:/application-hikari.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-13 09:48:45.735 uias [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-13 09:48:45.840 uias [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2020-01-13 09:48:45.967 uias [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-01-13 09:48:45.971 uias [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-01-13 09:48:46.018 uias [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-13 09:48:46.228 uias [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$360cad2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-13 09:48:46.240 uias [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-13 09:48:46.249 uias [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-13 09:48:46.261 uias [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$99d25a01] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-13 09:48:46.307 uias [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$1952a733] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-13 09:48:46.874 uias [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2020-01-13 09:48:46.894 uias [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2020-01-13 09:48:46.908 uias [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-01-13 09:48:46.908 uias [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-01-13 09:48:47.062 uias [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-01-13 09:48:47.063 uias [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3233 ms
+2020-01-13 09:48:47.138 uias [main] INFO  c.e.zjhz.common.xss.XssFilter - ------------ xss filter init ------------
+2020-01-13 09:48:47.821 uias [main] INFO  c.b.d.d.DynamicRoutingDataSource - 动态数据源-检测到并开启了p6spy
+2020-01-13 09:48:47.832 uias [main] INFO  com.zaxxer.hikari.HikariDataSource - primary - Starting...
+2020-01-13 09:48:48.218 uias [main] INFO  com.zaxxer.hikari.HikariDataSource - primary - Start completed.
+2020-01-13 09:48:48.218 uias [main] INFO  c.b.d.d.DynamicRoutingDataSource - 初始共加载 1 个数据源
+2020-01-13 09:48:48.218 uias [main] INFO  c.b.d.d.DynamicRoutingDataSource - 动态数据源-加载 primary 成功
+2020-01-13 09:48:48.218 uias [main] INFO  c.b.d.d.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 primary
+2020-01-13 09:48:50.657 uias [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2020-01-13 09:48:50.677 uias [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-13 09:48:50.678 uias [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.1 created.
+2020-01-13 09:48:50.679 uias [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2020-01-13 09:48:50.680 uias [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-13 09:48:50.680 uias [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-13 09:48:50.680 uias [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.1
+2020-01-13 09:48:50.680 uias [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@55b74e6b
+2020-01-13 09:48:50.770 uias [main] INFO  o.s.s.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now
+2020-01-13 09:48:50.770 uias [main] INFO  org.quartz.core.QuartzScheduler - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-13 09:48:50.781 uias [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-01-13 09:48:50.801 uias [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2020-01-13 09:48:50.813 uias [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-01-13 09:48:50.819 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method exportExcel was 文件导出
+2020-01-13 09:48:50.821 uias [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: exportExcel belongs to groups: [[ResourceGroup{groupName='文件导出', position=0, controller=EgExportFile}]]
+2020-01-13 09:48:50.822 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method addUserForSql was 基础用户管理
+2020-01-13 09:48:50.822 uias [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: addUserForSql belongs to groups: [[ResourceGroup{groupName='基础用户管理', position=0, controller=JcYhglController}]]
+2020-01-13 09:48:50.822 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method addUser was 基础用户管理
+2020-01-13 09:48:50.822 uias [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: addUser belongs to groups: [[ResourceGroup{groupName='基础用户管理', position=0, controller=JcYhglController}]]
+2020-01-13 09:48:50.822 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method deleteUser was 基础用户管理
+2020-01-13 09:48:50.822 uias [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: deleteUser belongs to groups: [[ResourceGroup{groupName='基础用户管理', position=0, controller=JcYhglController}]]
+2020-01-13 09:48:50.822 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getYhList was 基础用户管理
+2020-01-13 09:48:50.823 uias [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: getYhList belongs to groups: [[ResourceGroup{groupName='基础用户管理', position=0, controller=JcYhglController}]]
+2020-01-13 09:48:50.823 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getYhPage was 基础用户管理
+2020-01-13 09:48:50.823 uias [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: getYhPage belongs to groups: [[ResourceGroup{groupName='基础用户管理', position=0, controller=JcYhglController}]]
+2020-01-13 09:48:50.823 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getYhPage_sql was 基础用户管理
+2020-01-13 09:48:50.823 uias [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: getYhPage_sql belongs to groups: [[ResourceGroup{groupName='基础用户管理', position=0, controller=JcYhglController}]]
+2020-01-13 09:48:50.824 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was 基础用户管理
+2020-01-13 09:48:50.824 uias [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: login belongs to groups: [[ResourceGroup{groupName='基础用户管理', position=0, controller=JcYhglController}]]
+2020-01-13 09:48:50.824 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method updateUser was 基础用户管理
+2020-01-13 09:48:50.824 uias [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: updateUser belongs to groups: [[ResourceGroup{groupName='基础用户管理', position=0, controller=JcYhglController}]]
+2020-01-13 09:48:50.827 uias [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /default/基础用户管理 Description: 基础用户管理 Position: 0
+2020-01-13 09:48:50.829 uias [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /default/文件导出 Description: 文件导出 Position: 0
+2020-01-13 09:48:50.858 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: JcYhgl(false)
+2020-01-13 09:48:50.859 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key JcYhgl(false)
+2020-01-13 09:48:50.864 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcYhgl(false)
+2020-01-13 09:48:50.865 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcYhgl(false)
+2020-01-13 09:48:50.940 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: JcYhgl(false)
+2020-01-13 09:48:50.940 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key JcYhgl(false)
+2020-01-13 09:48:50.944 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcYhgl(false)
+2020-01-13 09:48:50.944 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcYhgl(false)
+2020-01-13 09:48:50.946 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result(true)
+2020-01-13 09:48:50.947 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key Result(true)
+2020-01-13 09:48:50.947 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: Result(true)
+2020-01-13 09:48:50.947 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key Result(true)
+2020-01-13 09:48:50.952 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result(true)
+2020-01-13 09:48:50.952 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key Result(true)
+2020-01-13 09:48:50.953 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: Result(true)
+2020-01-13 09:48:50.953 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key Result(true)
+2020-01-13 09:48:50.955 uias [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /rest/jcYhgl/addUser.JcYhglController.addUser.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:50.955 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /rest/jcYhgl/addUser.JcYhglController.addUser.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:50.976 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method addUser was 基础用户管理
+2020-01-13 09:48:50.991 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method addUser was 基础用户管理
+2020-01-13 09:48:51.001 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: JcyhAddRequest(false)
+2020-01-13 09:48:51.001 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key JcyhAddRequest(false)
+2020-01-13 09:48:51.001 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcyhAddRequest(false)
+2020-01-13 09:48:51.001 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcyhAddRequest(false)
+2020-01-13 09:48:51.004 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: JcyhAddRequest(false)
+2020-01-13 09:48:51.004 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key JcyhAddRequest(false)
+2020-01-13 09:48:51.004 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcyhAddRequest(false)
+2020-01-13 09:48:51.004 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcyhAddRequest(false)
+2020-01-13 09:48:51.005 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result(true)
+2020-01-13 09:48:51.005 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key Result(true)
+2020-01-13 09:48:51.005 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result(true)
+2020-01-13 09:48:51.005 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key Result(true)
+2020-01-13 09:48:51.005 uias [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /rest/jcYhgl/addUserForSql.JcYhglController.addUserForSql.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.005 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /rest/jcYhgl/addUserForSql.JcYhglController.addUserForSql.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.008 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method addUserForSql was 基础用户管理
+2020-01-13 09:48:51.009 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method addUserForSql was 基础用户管理
+2020-01-13 09:48:51.011 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result(true)
+2020-01-13 09:48:51.011 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key Result(true)
+2020-01-13 09:48:51.012 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result(true)
+2020-01-13 09:48:51.012 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key Result(true)
+2020-01-13 09:48:51.012 uias [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /rest/jcYhgl/deleteUser.JcYhglController.deleteUser.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.012 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /rest/jcYhgl/deleteUser.JcYhglController.deleteUser.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.015 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method deleteUser was 基础用户管理
+2020-01-13 09:48:51.016 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method deleteUser was 基础用户管理
+2020-01-13 09:48:51.017 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result(true)
+2020-01-13 09:48:51.018 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key Result(true)
+2020-01-13 09:48:51.018 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result(true)
+2020-01-13 09:48:51.018 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key Result(true)
+2020-01-13 09:48:51.018 uias [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /rest/jcYhgl/getYhList.JcYhglController.getYhList.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.018 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /rest/jcYhgl/getYhList.JcYhglController.getYhList.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.019 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getYhList was 基础用户管理
+2020-01-13 09:48:51.020 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getYhList was 基础用户管理
+2020-01-13 09:48:51.022 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: JcyhPageRequest(false)
+2020-01-13 09:48:51.022 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key JcyhPageRequest(false)
+2020-01-13 09:48:51.022 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcyhPageRequest(false)
+2020-01-13 09:48:51.023 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcyhPageRequest(false)
+2020-01-13 09:48:51.029 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: JcyhPageRequest(false)
+2020-01-13 09:48:51.029 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key JcyhPageRequest(false)
+2020-01-13 09:48:51.029 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcyhPageRequest(false)
+2020-01-13 09:48:51.029 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcyhPageRequest(false)
+2020-01-13 09:48:51.030 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: OrderByVo(false)
+2020-01-13 09:48:51.030 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key OrderByVo(false)
+2020-01-13 09:48:51.031 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: cn.eaglesoft.tools.excelUtil.entity.Columns(false)
+2020-01-13 09:48:51.031 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key cn.eaglesoft.tools.excelUtil.entity.Columns(false)
+2020-01-13 09:48:51.032 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: OrderByVo(false)
+2020-01-13 09:48:51.032 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key OrderByVo(false)
+2020-01-13 09:48:51.033 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: cn.eaglesoft.tools.excelUtil.entity.Columns(false)
+2020-01-13 09:48:51.033 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key cn.eaglesoft.tools.excelUtil.entity.Columns(false)
+2020-01-13 09:48:51.033 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhgl>>(true)
+2020-01-13 09:48:51.033 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhgl>>(true)
+2020-01-13 09:48:51.033 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhgl>>(true)
+2020-01-13 09:48:51.033 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhgl>>(true)
+2020-01-13 09:48:51.036 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhgl>>(true)
+2020-01-13 09:48:51.036 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhgl>>(true)
+2020-01-13 09:48:51.037 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcYhgl(true)
+2020-01-13 09:48:51.037 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcYhgl(true)
+2020-01-13 09:48:51.045 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.baomidou.mybatisplus.core.metadata.IPage<JcYhgl>(true)
+2020-01-13 09:48:51.045 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.baomidou.mybatisplus.core.metadata.IPage<JcYhgl>(true)
+2020-01-13 09:48:51.048 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcYhgl(true)
+2020-01-13 09:48:51.048 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcYhgl(true)
+2020-01-13 09:48:51.048 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhgl>>(true)
+2020-01-13 09:48:51.048 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhgl>>(true)
+2020-01-13 09:48:51.048 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcYhgl(true)
+2020-01-13 09:48:51.048 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcYhgl(true)
+2020-01-13 09:48:51.049 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.baomidou.mybatisplus.core.metadata.IPage<JcYhgl>(true)
+2020-01-13 09:48:51.049 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.baomidou.mybatisplus.core.metadata.IPage<JcYhgl>(true)
+2020-01-13 09:48:51.049 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcYhgl(true)
+2020-01-13 09:48:51.049 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcYhgl(true)
+2020-01-13 09:48:51.050 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.baomidou.mybatisplus.core.metadata.IPage<JcYhgl>(true)
+2020-01-13 09:48:51.050 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.baomidou.mybatisplus.core.metadata.IPage<JcYhgl>(true)
+2020-01-13 09:48:51.050 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcYhgl(true)
+2020-01-13 09:48:51.050 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcYhgl(true)
+2020-01-13 09:48:51.051 uias [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /rest/jcYhgl/getYhPage.JcYhglController.getYhPage.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.051 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /rest/jcYhgl/getYhPage.JcYhglController.getYhPage.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.052 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getYhPage was 基础用户管理
+2020-01-13 09:48:51.053 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getYhPage was 基础用户管理
+2020-01-13 09:48:51.055 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhPageResult>>(true)
+2020-01-13 09:48:51.055 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhPageResult>>(true)
+2020-01-13 09:48:51.055 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhPageResult>>(true)
+2020-01-13 09:48:51.055 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhPageResult>>(true)
+2020-01-13 09:48:51.057 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhPageResult>>(true)
+2020-01-13 09:48:51.057 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhPageResult>>(true)
+2020-01-13 09:48:51.057 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcYhPageResult(true)
+2020-01-13 09:48:51.058 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcYhPageResult(true)
+2020-01-13 09:48:51.058 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.baomidou.mybatisplus.core.metadata.IPage<JcYhPageResult>(true)
+2020-01-13 09:48:51.059 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.baomidou.mybatisplus.core.metadata.IPage<JcYhPageResult>(true)
+2020-01-13 09:48:51.060 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcYhPageResult(true)
+2020-01-13 09:48:51.060 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcYhPageResult(true)
+2020-01-13 09:48:51.061 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhPageResult>>(true)
+2020-01-13 09:48:51.061 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key Result<com.baomidou.mybatisplus.core.metadata.IPage<JcYhPageResult>>(true)
+2020-01-13 09:48:51.061 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcYhPageResult(true)
+2020-01-13 09:48:51.061 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcYhPageResult(true)
+2020-01-13 09:48:51.061 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.baomidou.mybatisplus.core.metadata.IPage<JcYhPageResult>(true)
+2020-01-13 09:48:51.061 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.baomidou.mybatisplus.core.metadata.IPage<JcYhPageResult>(true)
+2020-01-13 09:48:51.061 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcYhPageResult(true)
+2020-01-13 09:48:51.061 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcYhPageResult(true)
+2020-01-13 09:48:51.061 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: com.baomidou.mybatisplus.core.metadata.IPage<JcYhPageResult>(true)
+2020-01-13 09:48:51.061 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key com.baomidou.mybatisplus.core.metadata.IPage<JcYhPageResult>(true)
+2020-01-13 09:48:51.062 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: JcYhPageResult(true)
+2020-01-13 09:48:51.062 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key JcYhPageResult(true)
+2020-01-13 09:48:51.062 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: JcyhPageRequest(false)
+2020-01-13 09:48:51.063 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key JcyhPageRequest(false)
+2020-01-13 09:48:51.063 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: JcyhPageRequest(false)
+2020-01-13 09:48:51.063 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key JcyhPageRequest(false)
+2020-01-13 09:48:51.063 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: OrderByVo(false)
+2020-01-13 09:48:51.063 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key OrderByVo(false)
+2020-01-13 09:48:51.063 uias [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: cn.eaglesoft.tools.excelUtil.entity.Columns(false)
+2020-01-13 09:48:51.064 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key cn.eaglesoft.tools.excelUtil.entity.Columns(false)
+2020-01-13 09:48:51.064 uias [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /rest/jcYhgl/getYhPage_sql.JcYhglController.getYhPage_sql.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.064 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /rest/jcYhgl/getYhPage_sql.JcYhglController.getYhPage_sql.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.066 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getYhPage_sql was 基础用户管理
+2020-01-13 09:48:51.067 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getYhPage_sql was 基础用户管理
+2020-01-13 09:48:51.068 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result(true)
+2020-01-13 09:48:51.069 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key Result(true)
+2020-01-13 09:48:51.069 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result(true)
+2020-01-13 09:48:51.069 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key Result(true)
+2020-01-13 09:48:51.069 uias [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /rest/jcYhgl/login.JcYhglController.login.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.069 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /rest/jcYhgl/login.JcYhglController.login.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.071 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was 基础用户管理
+2020-01-13 09:48:51.072 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was 基础用户管理
+2020-01-13 09:48:51.073 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: JcYhgl(false)
+2020-01-13 09:48:51.074 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key JcYhgl(false)
+2020-01-13 09:48:51.074 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: JcYhgl(false)
+2020-01-13 09:48:51.074 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key JcYhgl(false)
+2020-01-13 09:48:51.074 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result(true)
+2020-01-13 09:48:51.074 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key Result(true)
+2020-01-13 09:48:51.074 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: Result(true)
+2020-01-13 09:48:51.074 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key Result(true)
+2020-01-13 09:48:51.074 uias [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /rest/jcYhgl/updateUser.JcYhglController.updateUser.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.074 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /rest/jcYhgl/updateUser.JcYhglController.updateUser.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.076 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method updateUser was 基础用户管理
+2020-01-13 09:48:51.077 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method updateUser was 基础用户管理
+2020-01-13 09:48:51.084 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Void(true)
+2020-01-13 09:48:51.084 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Void(true)
+2020-01-13 09:48:51.084 uias [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Void(true)
+2020-01-13 09:48:51.085 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Void(true)
+2020-01-13 09:48:51.085 uias [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /rest/export/exportExcel.EgExportFile.exportExcel.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.085 uias [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /rest/export/exportExcel.EgExportFile.exportExcel.DefaultGenericTypeNamingStrategy
+2020-01-13 09:48:51.087 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method exportExcel was 文件导出
+2020-01-13 09:48:51.088 uias [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method exportExcel was 文件导出
+2020-01-13 09:48:51.106 uias [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2020-01-13 09:48:51.164 uias [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2020-01-13 09:48:51.170 uias [main] INFO  Application - Started Application in 8.802 seconds (JVM running for 10.244)
+2020-01-13 09:48:51.174 uias [main] INFO  c.e.z.common.runner.CacheInitRunner - Redis连接中 ······
+2020-01-13 09:48:51.198 uias [main] INFO  c.e.z.common.runner.CacheInitRunner - 缓存初始化 ······
+2020-01-13 09:48:51.198 uias [main] INFO  c.e.z.common.runner.StartedUpRunner -  __    ___   _      ___   _     ____ _____  ____ 
+2020-01-13 09:48:51.198 uias [main] INFO  c.e.z.common.runner.StartedUpRunner - / /`  / / \ | |\/| | |_) | |   | |_   | |  | |_  
+2020-01-13 09:48:51.198 uias [main] INFO  c.e.z.common.runner.StartedUpRunner - \_\_, \_\_/ |_|  | |_|   |_|__ |_|__  |_|  |_|__ 
+2020-01-13 09:48:51.199 uias [main] INFO  c.e.z.common.runner.StartedUpRunner -                                                       
+2020-01-13 09:48:51.204 uias [main] INFO  c.e.z.common.runner.StartedUpRunner - Demo项目 启动完毕，时间：2020-01-13T09:48:51.204

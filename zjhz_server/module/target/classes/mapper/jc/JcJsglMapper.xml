@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eaglesoft.zjhz.dao.jc.JcJsglMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.eaglesoft.zjhz.entity.jc.JcJsgl">
+        <id column="BH" property="bh" />
+        <result column="JSMC" property="jsmc" />
+        <result column="DWBH" property="dwbh" />
+        <result column="WZH" property="wzh" />
+        <result column="SCBZ" property="scbz" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BH, JSMC, DWBH, WZH, SCBZ
+    </sql>
+
+</mapper>

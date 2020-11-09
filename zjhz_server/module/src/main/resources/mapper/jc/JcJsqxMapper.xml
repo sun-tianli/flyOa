@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eaglesoft.zjhz.dao.jc.JcJsqxMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.eaglesoft.zjhz.entity.jc.JcJsqx">
+        <id column="BH" property="bh"/>
+        <result column="JSBH" property="jsbh"/>
+        <result column="QXBH" property="qxbh"/>
+        <result column="DWBH" property="dwbh"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        BH, JSBH, QXBH, DWBH
+    </sql>
+
+    <select id="getQx" resultType="com.eaglesoft.zjhz.entity.jc.JcJsqx">
+        select *
+        from jc_jsqx
+        where QXBH=#{qxbh} and JSBH=#{jsbh} and DWBH=#{dwbh}
+    </select>
+
+    <select id="getAllQx" resultType="java.lang.Integer">
+        select qxbh
+        from jc_jsqx
+        where JSBH=#{jsbh} and DWBH=#{dwbh}
+    </select>
+
+
+<!--    <select id="getJs" resultType="com.eaglesoft.zjhz.entity.jc.JcJsqx">-->
+<!--        select *-->
+<!--        from jc_jsqx-->
+<!--        where qxbh=#{qxbh} and QXBH=#{qxbh} and JSBH=#{jsbh} and DWBH=#{dwbh}-->
+<!--    </select>>-->
+
+    <select id="getAllJs" resultType="java.lang.Integer">
+        select jsbh
+        from jc_jsqx
+        where qxbh=#{qxbh} and dwbh=#{dwbh}
+    </select>
+
+</mapper>
